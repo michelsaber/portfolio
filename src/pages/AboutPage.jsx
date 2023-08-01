@@ -10,6 +10,7 @@ function AboutPage() {
       passionate about tech and programming. Bringing 7 years of project
       management skills, a strong work ethic and a problem-solving approach to
       drive successful outcomes in web and software development.
+      <div></div>
     </div>
   );
 }
