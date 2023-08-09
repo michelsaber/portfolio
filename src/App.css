@@ -34,6 +34,10 @@ nav a:hover {
   color: var(--secondaryColor);
 }
 
+.navLink {
+  font-weight: bold;
+}
+
 header .nav-btn {
   padding: 5px;
   cursor: pointer;
