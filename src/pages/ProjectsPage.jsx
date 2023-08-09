@@ -7,13 +7,16 @@ function ProjectsPage() {
     <div className="aboutPageParent">
       <div className="projectsPageParent">
         <div className="sparsamDiv">
-          <h2>Sparsam</h2>
-          <img src={sparsam} style={{ width: "30vw" }} alt="" />
+        <a href="https://sparsam.netlify.app" className="projectLink"><h2>Sparsam</h2>
+        <img src={sparsam} style={{ width: "30vw" }} alt="" /></a>
+         
         </div>
 
         <div className="festivaDiv">
+        <a href="https://festiva.adaptable.app" className="projectLink">
           <h2>Festiva</h2>
           <img src={festiva} style={{ width: "30vw" }} alt="" />
+          </a>
         </div>
       </div>
     </div>

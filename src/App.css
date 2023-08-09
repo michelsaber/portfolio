@@ -241,3 +241,15 @@ nav {
   justify-content: space-around;
   align-items: center;
 }
+
+
+
+.projectLink {
+  margin: 0 1rem;
+  color: var(--textColor);
+  text-decoration: none;
+}
+
+.projectLink :hover {
+  color: var(--secondaryColor);
+}
