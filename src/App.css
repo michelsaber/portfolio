@@ -233,6 +233,16 @@ nav {
     font-weight: bold;
     padding-left: 2%;
   }
+
+  .projectsPageParent{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .aboutPageParent .projectsPageParent .sparsamDiv > a > img, .aboutPageParent .projectsPageParent .festivaDiv > a > img{
+    min-width: 300px;
+    min-height:200px;
+  }
 }
 
 /* projectsPage CSS */
