@@ -239,6 +239,7 @@ nav {
     flex-direction: column;
   }
 
+
   .aboutPageParent .projectsPageParent .sparsamDiv > a > img, .aboutPageParent .projectsPageParent .festivaDiv > a > img{
     min-width: 300px;
     min-height:200px;
@@ -262,4 +263,10 @@ nav {
 
 .projectLink :hover {
   color: var(--secondaryColor);
+}
+
+
+.sparsamDiv:hover, .festivaDiv:hover{
+  transform: translateY(-2.1rem);
+  -webkit-transition-duration: 0.7s;
 }
