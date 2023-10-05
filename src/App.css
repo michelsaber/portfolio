@@ -138,6 +138,32 @@ nav {
   padding-left: 3%;
 }
 
+/* projectsPage CSS */
+.projectsPageParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+
+.projectLink {
+  margin: 0 1rem;
+  color: var(--textColor);
+  text-decoration: none;
+}
+
+.projectLink :hover {
+  color: var(--secondaryColor);
+}
+
+
+.sparsamDiv:hover, .festivaDiv:hover, .weatherAppDiv:hover{
+  transform: translateY(-2.1rem);
+  -webkit-transition-duration: 0.7s;
+}
+
 @media only screen and (max-width: 1024px) {
   header .nav-btn {
     visibility: visible;
@@ -240,33 +266,19 @@ nav {
   }
 
 
-  .aboutPageParent .projectsPageParent .sparsamDiv > a > img, .aboutPageParent .projectsPageParent .festivaDiv > a > img{
+  .aboutPageParent .projectsPageParent .sparsamDiv > a > img, .aboutPageParent .projectsPageParent .festivaDiv > a > img, .aboutPageParent .projectsPageParent .weatherAppDiv>a >img{
     min-width: 300px;
     min-height:200px;
   }
+
+  .projectsPageParent{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .weatherAppDiv, .sparsamDiv, .festivaDiv {
+    display: flex;
+    justify-content: space-around;
+  }
 }
 
-/* projectsPage CSS */
-.projectsPageParent {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-
-
-.projectLink {
-  margin: 0 1rem;
-  color: var(--textColor);
-  text-decoration: none;
-}
-
-.projectLink :hover {
-  color: var(--secondaryColor);
-}
-
-
-.sparsamDiv:hover, .festivaDiv:hover{
-  transform: translateY(-2.1rem);
-  -webkit-transition-duration: 0.7s;
-}
