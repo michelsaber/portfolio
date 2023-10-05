@@ -2,7 +2,6 @@ import React from "react";
 import sparsam from "../icons/Sparsam.PNG";
 import festiva from "../icons/Festiva.PNG";
 import weatherApp from "../icons/WeatherApp.png"
-import { hover } from "@testing-library/user-event/dist/hover";
 
 function ProjectsPage() {
   return (
