@@ -26,7 +26,7 @@ function ProjectsPage() {
 
         <div className="weatherAppDiv">
         <a href="https://michelsaber.github.io/Pokemon-Canvas-Game/" className="projectLink">
-          <h2>Easy Weather</h2>
+          <h2>Pokemon Game</h2>
           <img src={pokemonApp} style={{ width: "20vw" , height: "18vw" }} alt="" />
           </a>
           <div><p style={{paddingTop:"20px", width: "20vw", fontSize:"15px"}}> Weather app for tablets. React, JS, CSS</p>
