@@ -146,12 +146,22 @@ nav {
   align-items: center;
 }
 
-
+.languages{
+  margin-top:2vw;
+  color: #009c8f;
+}
 
 .projectLink {
   margin: 0 1rem;
   color: var(--textColor);
   text-decoration: none;
+}
+
+.projectSourceCode {
+  margin: 0 1rem;
+  color: var(--textColor);
+  text-decoration: none;
+  font-size: 1rem;
 }
 
 .projectLink :hover {

@@ -10,7 +10,9 @@ function AboutPage() {
       passionate about tech and programming. Bringing 7 years of project
       management skills, a strong work ethic and a problem-solving approach to
       drive successful outcomes in web and software development.
+      <div className="languages">HTML, CSS, Javascript, React, Typescript, Express, NodeJS, MongoDB and Axios.  </div>
     </div>
+
   );
 }
 

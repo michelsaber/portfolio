@@ -13,7 +13,7 @@ function Navbar() {
     <header className="nav">
       <div>
         <Link to="/" style={{ textDecoration: "none" }}>
-          <h3 style={{ color: "black" }}>MS</h3>
+          <h3 style={{ color: "black" }}>MS Logo</h3>
         </Link>
       </div>
       <div>
