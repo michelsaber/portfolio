@@ -1,7 +1,7 @@
 import React from "react";
 import sparsam from "../icons/Sparsam.PNG";
 import festiva from "../icons/Festiva.PNG";
-import weatherApp from "../icons/WeatherApp.png"
+import pokemonApp from "../icons/pokemonApp.png"
 
 function ProjectsPage() {
   return (
@@ -22,9 +22,9 @@ function ProjectsPage() {
         </div>
 
         <div className="weatherAppDiv">
-        <a href="https://theeasyweather.netlify.app" className="projectLink">
+        <a href="https://michelsaber.github.io/Pokemon-Canvas-Game/" className="projectLink">
           <h2>Easy Weather</h2>
-          <img src={weatherApp} style={{ width: "20vw" , height: "18vw" }} alt="" />
+          <img src={pokemonApp} style={{ width: "20vw" , height: "18vw" }} alt="" />
           </a>
           <p style={{paddingTop:"20px", width: "20vw", fontSize:"15px"}}> Weather app for tablets. React, JS, CSS</p>
         </div>
