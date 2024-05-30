@@ -18,8 +18,8 @@ function Header() {
             
           </Nav>
           <Nav>
-            <Nav.Link href="#Github">Github</Nav.Link>
-            <Nav.Link eventKey={2} href="#LinkedIn">
+            <Nav.Link href="https://github.com/michelsaber">Github</Nav.Link>
+            <Nav.Link eventKey={2} href="https://www.linkedin.com/in/michel-saber/">
               LinkedIn
             </Nav.Link>
           </Nav>
