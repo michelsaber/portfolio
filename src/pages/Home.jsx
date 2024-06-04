@@ -13,17 +13,23 @@ import code from "../icons/code.png";
 import responsive from "../icons/responsive.png";
 import clean from "../icons/clean.png";
 import { Projects } from '../components/Projects';
+import waves from "../icons/waves.svg";
+import waves2 from "../icons/waves2.svg";
+import wavesFooter from "../icons/wavesFooter.svg";
+import wavesFooter2 from "../icons/wavesFooter2.svg";
+import wavesHeader from "../icons/wavesHeader.svg";
 
 function Home() {
   return (
     <div  >
         <Header></Header>
+        <img src={wavesHeader} style={{width:"100%", backgroundColor:"white"}} alt=""/>
         <div className="rounded-bottom" style={{backgroundColor :"white", color:"#75e6da"}} >
         <Container >
     <Row className='py-5'>
       <Col xs={6} md={6} >
         <h2 className='text-black py-5 fs-1' >Turning ideas into reality</h2>
-        <Link to="/about" style={{textDecoration:"none", color:"black"}} className='fs-4 fw-light'>Meet Michel</Link>
+        <Link to="/about" style={{textDecoration:"none", color:"#262f38"}} className='fs-4 fw-light'>Meet Michel</Link>
       </Col>
       <Col xs={6} md={6}>
         <Image  src={sparsamSS} style={{width:"60%", height:"auto"}} fluid  />
@@ -31,8 +37,9 @@ function Home() {
       </Row>
       </Container>
       </div>
-
+      <img src={wavesFooter2} style={{width:"100%", backgroundColor:"#262f38"}} alt=""/>
 <div className='p-5' style={{backgroundColor:"#262f38"}} >
+
     <Container>
     <CardGroup>
       <Card className='text-center text-white' style={{backgroundColor:"#262f38"}}>
@@ -66,13 +73,16 @@ function Home() {
         
       </Card>
     </CardGroup>
+    
 </Container>
 </div>
+<img src={waves2} style={{width:"100%", backgroundColor:"white"}} alt=""/>
 <div>
 <Container>
   <Projects></Projects>
 </Container>
 </div>
+<img src={wavesFooter} style={{width:"100%", backgroundColor:"#262f38"}} alt=""/>
   <Footer></Footer>
         </div>
   )
