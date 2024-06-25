@@ -13,7 +13,6 @@ import code from "../icons/code.png";
 import responsive from "../icons/responsive.png";
 import clean from "../icons/clean.png";
 import { Projects } from '../components/Projects';
-import waves from "../icons/waves.svg";
 import waves2 from "../icons/waves2.svg";
 import wavesFooter from "../icons/wavesFooter.svg";
 import wavesFooter2 from "../icons/wavesFooter2.svg";
