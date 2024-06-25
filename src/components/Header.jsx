@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import navIcon1 from "../icons/nav-icon1.svg";
-import navIcon2 from "../icons/nav-icon2.svg";
+import navIcon2 from "../icons/nav-icon2.png";
 import navIcon3 from "../icons/nav-icon3.svg";
 
 
@@ -22,9 +22,9 @@ function Header() {
           </Nav>
           <Nav>
           <div className="social-icon">
-              <a href="#"><img src={navIcon1} alt="Icon" /></a>
-              <a href="#"><img src={navIcon2} alt="Icon" /></a>
-              <a href="#"><img src={navIcon3} alt="Icon" /></a>
+              <a href="https://www.linkedin.com/in/michel-saber"><img src={navIcon1} alt="Icon" /></a>
+              <a href="https://github.com/michelsaber"><img src={navIcon2} alt="Icon" /></a>
+              <a href="https://www.instagram.com/michel.saber"><img src={navIcon3} alt="Icon" /></a>
             </div>
           </Nav>
         </Navbar.Collapse>
