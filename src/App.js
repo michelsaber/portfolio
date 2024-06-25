@@ -1,9 +1,9 @@
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Projects from "./pages/Projects";
+import Home from "./Home";
+import About from "./About";
+import Projects from "./Projects";
 
 function App() {
   return (

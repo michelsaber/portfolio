@@ -1,8 +1,8 @@
 import React from 'react';
-import Header from "../components/Header";
-import picture from "../icons/mypic.jpeg";
+import Header from "./components/Header";
+import picture from "./icons/mypic.jpeg";
 import Image from 'react-bootstrap/Image';
-import wavesHeader from "../icons/wavesHeader.svg";
+import wavesHeader from "./icons/wavesHeader.svg";
 import { Container } from 'react-bootstrap';
 
 function About() {

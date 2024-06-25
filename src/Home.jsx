@@ -1,22 +1,22 @@
 import React from 'react'
-import Header from "../components/Header";
+import Header from "./components/Header";
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
 import { Link } from 'react-router-dom';
-import Footer from '../components/Footer';
-import sparsamSS from "../icons/macbook-overlay.png";
+import Footer from './components/Footer';
+import sparsamSS from "./icons/macbook-overlay.png";
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
-import code from "../icons/code.png";
-import responsive from "../icons/responsive.png";
-import clean from "../icons/clean.png";
-import { Projects } from '../components/Projects';
-import waves2 from "../icons/waves2.svg";
-import wavesFooter from "../icons/wavesFooter.svg";
-import wavesFooter2 from "../icons/wavesFooter2.svg";
-import wavesHeader from "../icons/wavesHeader.svg";
+import code from "./icons/code.png";
+import responsive from "./icons/responsive.png";
+import clean from "./icons/clean.png";
+import { Projects } from './components/Projects';
+import waves2 from "./icons/waves2.svg";
+import wavesFooter from "./icons/wavesFooter.svg";
+import wavesFooter2 from "./icons/wavesFooter2.svg";
+import wavesHeader from "./icons/wavesHeader.svg";
 
 function Home() {
   return (
