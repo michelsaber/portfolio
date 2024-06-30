@@ -16,7 +16,7 @@ function Projects() {
         <img src={wavesProjects} style={{width:"100%", backgroundColor:"#262f38"}} alt=""/>
         <Container>
       <Row className='row align-items-center py-4' >
-        <Col sm={6} >
+        <Col sm={6}>
             <img src={projectImg1}  fluid rounded alt=""/>
         </Col>
         <Col sm={6} >
