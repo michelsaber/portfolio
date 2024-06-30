@@ -41,7 +41,7 @@ function Home() {
 
     <Container>
     <CardGroup>
-      <Card className='text-center text-white' style={{backgroundColor:"#262f38"}}>
+      <Card className='text-center text-white border-0' style={{backgroundColor:"#262f38"}}>
         <Card.Img variant="top" className='mx-auto' src={code} style={{width:"50%"}}/>
         <Card.Body>
           <Card.Title>Programmer</Card.Title>
@@ -51,7 +51,7 @@ function Home() {
         </Card.Body>
         
       </Card >
-      <Card className='text-center text-white' style={{backgroundColor:"#262f38"}} >
+      <Card className='text-center text-white border-0' style={{backgroundColor:"#262f38"}} >
         <Card.Img variant="top" src={responsive} className='mx-auto' style={{width:"50%"}} />
         <Card.Body>
           <Card.Title>Responsive Design</Card.Title>
@@ -61,7 +61,7 @@ function Home() {
         </Card.Body>
         
       </Card>
-      <Card className='text-center text-white' style={{backgroundColor:"#262f38"}}>
+      <Card className='text-center text-white border-0' style={{backgroundColor:"#262f38"}}>
         <Card.Img variant="top" src={clean} className='mx-auto' style={{width:"50%"}} />
         <Card.Body>
           <Card.Title>Clean Code</Card.Title>
