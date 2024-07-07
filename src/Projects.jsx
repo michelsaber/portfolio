@@ -21,8 +21,11 @@ function Projects() {
         </Col>
         <Col sm={6} >
             <h2 className="text-center fs-1 fw-bold" style={{color:"#262f38"}}>Sparsam</h2>
-            <p >This Page is in Progress.</p>
-        <Button variant='outline-primary'>Visit</Button>
+            <p className='pt-4 text-gray'>A Responsive budgeting app for monthly and weekly planning. </p>
+              <p className='pt-1'>Frontend: React, Chartjs, HTML, CSS and Javascript. Backend: Express and MongoDB.</p>
+            <a className="px-3" href="https://sparsam.netlify.app/"><Button variant='outline-primary'>Visit</Button></a> 
+            <a className="px-3" href="https://github.com/fraulueneburg-ironhack/p3-frontend"><Button variant='outline-primary'>Frontend Repo</Button></a>
+            <a  className="px-3" href="https://github.com/fraulueneburg-ironhack/p3-backend"><Button variant='outline-primary'>Backend Repo</Button></a>
         </Col>
       </Row>
       </Container>
@@ -34,7 +37,10 @@ function Projects() {
     <Row className='row align-items-center py-4' id="locations">
         <Col sm={6} >
             <h2 className="text-center fs-1 fw-bold" style={{color:"#262f38"}}>Festiva</h2>
-            <p className=' py-4 text-gray  '>This Page is in Progress.</p>   
+            <p className=' pt-4 text-gray  '>An event Website where you can sign up, add, edit and delete upcoming events. </p>
+              <p className='pt-1'>Frontend: Handlebars, HTML, CSS and Javascript. Backend: Express and MongoDB.</p>   
+            <a className="px-3" href="https://festiva.adaptable.app/"><Button variant='outline-primary'>Visit</Button></a> 
+            <a className="px-3" href="https://github.com/michelsaber/Ironhack-M2-Project"><Button variant='outline-primary'>Code</Button></a> 
         </Col>
         <Col sm={6} >
         <img src={projectImg2}  fluid rounded alt=""/>  
@@ -52,7 +58,10 @@ function Projects() {
         </Col>
         <Col sm={6} >
         <h2 className="text-center fs-1 fw-bold" style={{color:"#262f38"}}>Vacago</h2>
-        <p className='py-4 '>This Page is in Progress.</p>
+        <p className='pt-4 '>A Responsive Frontend Website for a vacation and travel agency. </p>
+          <p className='pt-1'>Frontend: React, React Bootstrap, Boostrap, HTML, CSS and Javascript. </p>
+        <a className="px-3" href="https://vacago.netlify.app/"><Button variant='outline-primary'>Visit</Button></a> 
+        <a className="px-3" href="https://github.com/michelsaber/vacago"><Button variant='outline-primary'>Code</Button></a> 
             
         </Col>
       </Row>
